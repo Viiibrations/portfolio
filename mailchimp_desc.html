@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sara Torres Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <button class="nav_toggle" aria-label="toggles navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#skills" class="nav_link">My Skills</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#projects" class="nav_link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section_title intro_title">
+            <strong>Mailing List Sign Up</strong>
+        </h1>
+        <p class="subtitle subtitle_intro">MailChimp API Project using Node.js</p>
+        <img src="img/preview3.JPG" alt="temp filler img" class="intro-img">
+    </section>
+
+    <div class="portfolio_item">
+        <p>Though as the end-user you cannot see the back-end functionality of this project,
+            please feel free to view the hosted website and "sign up for my newsletter" <a href="https://mighty-reef-05821.herokuapp.com/" target="_blank">here</a>. 
+            This is a simple project I created to showcase that I can set up a functional API connection. I built this web page using Node and Express.js, as well as Bootstrap for styling.
+            When the user inputs their information, it is instantly sent through to my MailChimp account, where I can actively send them
+            a newsletter, marketing e-mails, etc. for a hypothetical business or website.
+        </p>
+       
+        <img src="img/ex1.JPG" alt="example of user input" class="centerImg">
+        <figcaption>Example of user inputting their information</figcaption>
+
+        <img src="img/ex2.JPG" alt="example of user input showing up on MailChimp">
+        <figcaption>Example of user's information appearing on MailChimp contacts via the API</figcaption>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <a href="mailto:storre5@yahoo.com" class="email">E-mail Me</a>
+        <ul class="socials">
+            <li class="social_item"><a href="https://www.linkedin.com/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+            <li class="social_item"><a href="https://github.com/"><i class="fab fa-github"></i></a></li>
+            <li class="social_item"><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+
+</body>
+
+</html>

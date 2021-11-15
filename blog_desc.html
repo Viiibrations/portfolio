@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sara Torres Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <button class="nav_toggle" aria-label="toggles navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="index.html#skills" class="nav_link">My Skills</a></li>
+                <li class="nav_item"><a href="index.html#about" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="index.html#projects" class="nav_link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section_title intro_title">
+            <strong>Personal Blog Website</strong>
+        </h1>
+        <p class="subtitle subtitle_intro">(Work in Progress) <br> Project using Node.js and MongoDB</p>
+        <img src="img/preview4.JPG" alt="temp filler img" class="intro-img">
+    </section>
+
+    <div class="portfolio_item">
+        <p>
+            This project is currently in progress, but please <a href="https://warm-wildwood-66726.herokuapp.com/" target="_blank">check out what I have so far</a>! 
+            I have completed all of the styling and content using Node and Express.js,
+            and am currently working on implementing MongoDB to store data. It is designed as a personal blog, but
+            for now I have included the "compose" page for visitors to play with in order to view the functionality of the site.
+        </p>
+
+        <p>In its current state, the home page looks quite empty at first. This is because there are no posts yet! In
+            the "Compose" page,
+            we are given a form with a space to choose a title for our blog entry, and a space to type out the contents
+            of the blog post.
+        </p>
+        <img src="img/BlogEx1.JPG" alt="example of compose page">
+
+        <p>Once we publish the post, we are re-directed to the home page, where a preview to the blog post can be seen. 
+            <br>After publishing multiple blog posts, the below image is what the home page would look like. </p>
+        <img src="img/BlogEx2.JPG" alt="example of home page">
+
+        <p>When the user clicks the "Read More" link following each blog preview, they are re-directed to a new page
+            containing the entire blog post.</p>
+        <img src="img/BlogEx3.JPG" alt="example of post page">
+
+        <p>Once my database set-up is complete, the page will be pre-populated with blog posts that have already been
+            supplied by MongoDB, and will continue
+            to be updated as more posts are added!</p>
+
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <a href="mailto:storre5@yahoo.com" class="email">E-mail Me</a>
+        <ul class="socials">
+            <li class="social_item"><a href="https://www.linkedin.com/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+            <li class="social_item"><a href="https://github.com/"><i class="fab fa-github"></i></a></li>
+            <li class="social_item"><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+
+</body>
+
+</html>
